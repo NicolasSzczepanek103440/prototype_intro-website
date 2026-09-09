@@ -1,0 +1,29 @@
+.ham {
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+}
+
+#ham_1 {
+    animation-name: none;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#ham_2 {
+    animation-name: none;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#ham_3 {
+    animation-name: none;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+p{color: #232323;}
