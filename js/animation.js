@@ -3,6 +3,7 @@ let base = document.querySelector(".hamburger");
 let ham1 = document.getElementById("ham_1");
 let ham2 = document.getElementById("ham_2");
 let ham3 = document.getElementById("ham_3");
+let hamMenu = document.getElementById("hamMenu");
 
 function hamburger_animation(state) {
         if (state == 'open') {
