@@ -16,8 +16,6 @@ function hamburger_animation(state) {
             setTimeout(function(){
                 base.setAttribute("onclick", "hamburger_animation('close')");
             }, 1000);
-
-            hamMenu.style.height = "100px";
         }
 
         if (state == 'close') {
@@ -30,7 +28,5 @@ function hamburger_animation(state) {
             setTimeout(function(){
                 base.setAttribute("onclick", "hamburger_animation('open')");
             }, 1000);
-
-            hamMenu.style.height = "0px";
         }
 }
