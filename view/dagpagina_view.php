@@ -17,7 +17,7 @@
 <body>
     <div class="navbar w-full h-[100px] text-5xl bg-gray-400 font-bold flex items-center">
         <div class="hamburger w-fit min-h-14 absolute l-0 ml-50 cursor-pointer" onclick="hamburger_animation('open')">
-            <div class="hamburger_container min-h-14 flex flex-col justify-evenly">
+            <div id="hamMenu" class="hamburger_container min-h-14 flex flex-col justify-evenly">
                 <div id="ham_1" class="ham"></div>
                 <div id="ham_2" class="ham"></div>
                 <div id="ham_3" class="ham"></div>
