@@ -31,7 +31,7 @@
 
 
 <div class="navbar w-full h-[160px] text-5xl bg-gray-400 font-bold flex items-center">
-    <div class="hamburger w-fit min-h-14 absolute l-0 ml-50 cursor-pointer" onclick="hamburger_animation('open')">
+    <div class=" hamburger hover:bg-gray-500 rounded-md w-fit min-h-14 absolute l-0 ml-50 cursor-pointer" onclick="hamburger_animation('open')">
         <div class="hamburger_container min-h-14 flex flex-col justify-evenly">
             <div id="ham_1" class="ham"></div>
             <div id="ham_2" class="ham"></div>
@@ -43,13 +43,13 @@
 
 <div class="dropdown_container">
     <div id="burger_container" class="flex flex-col bg-orange-400 h-0 w-[200px] text-center text-[22.5px] rounded-b-xl absolute left-[130px] overflow-hidden">
-        <a href="homepage.php">Hoofdpagina</a>
-        <a href="dagpagina.php?dag=1" id="Maandag">Maandag</a>
-        <a href="dagpagina.php?dag=2" id="Dinsdag">Dinsdag</a>
-        <a href="dagpagina.php?dag=3" id="Woensdag">Woensdag</a>
-        <a href="dagpagina.php?dag=4" id="Donderdag">Donderdag</a>
-        <a href="dagpagina.php?dag=5" id="Vrijdag">Vrijdag</a>
-        <a href="extra.php">Extra info</a>
+        <a class="hover:bg-orange-500" href="homepage.php">Hoofdpagina</a>
+        <a class="hover:bg-orange-500" href="dagpagina.php?dag=1" id="Maandag">Maandag</a>
+        <a class="hover:bg-orange-500" href="dagpagina.php?dag=2" id="Dinsdag">Dinsdag</a>
+        <a class="hover:bg-orange-500" href="dagpagina.php?dag=3" id="Woensdag">Woensdag</a>
+        <a class="hover:bg-orange-500" href="dagpagina.php?dag=4" id="Donderdag">Donderdag</a>
+        <a class="hover:bg-orange-500" href="dagpagina.php?dag=5" id="Vrijdag">Vrijdag</a>
+        <a class="hover:bg-orange-500" href="extra.php">Extra info</a>
     </div>
 </div>
 
