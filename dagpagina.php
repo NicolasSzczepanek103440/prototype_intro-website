@@ -5,7 +5,7 @@ require "data/connect.php";
     Onderstaande code is verantwoordelijk voor het bepalen van de dag afhankelijk van de 'dag' parameter in de URL
         - Nicolas */
 $welke_dag = $_GET["dag"];
-$query_dagpagina = "SELECT dag FROM data_pages WHERE id = $welke_dag";
+$query_dagpagina = "SELECT dag, inleiding, kern, afb1, afb2, afb3, afb4 FROM data_pages WHERE id = $welke_dag";
 
 try {
     $dagpagina_pandx = $pdo->prepare($query_dagpagina);
